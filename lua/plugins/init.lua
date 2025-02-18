@@ -93,4 +93,16 @@ return {
         'windwp/nvim-ts-autotag'
     },
 
+    {
+        "lervag/vimtex",
+        lazy = false, -- Load immediately
+        config = function()
+            vim.g.vimtex_view_method = "zathura"
+            vim.g.vimtex_compiler_method = "latexmk"
+        end
+    },
+
+    {
+      "karb94/neoscroll.nvim",
+    },
 }

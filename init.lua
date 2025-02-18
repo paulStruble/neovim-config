@@ -190,6 +190,8 @@ require('nvim-ts-autotag').setup({
   },
 })
 
+require('neoscroll').setup()
+
 -- Function to show diagnostics in a floating window
 vim.api.nvim_set_keymap(
   'n',
